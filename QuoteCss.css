@@ -3,13 +3,13 @@ body{
 }
 
 h1{
-    border: 2px solid black;
+    border: 2px solid #000000;
     padding: 10px;
-    background-color: beige;
+    background-color: #F5F5DC;
     font-size: 40px;
     font-weight: bold;
-    border-radius: 5px;/* on the phone */
-    color: #4f4e3e;
+    border-radius: 5px;
+    color: #4f4e3e;  /* on the phone */                  
 }
 
 h1:hover{
