@@ -25,3 +25,16 @@ p{
    background-color: #6E3F9D;
    color: #D48ADB;
 }
+
+body.lightTheme{
+    background-color: #D48ADB;
+}
+
+body.lightTheme h1{
+    color: #ffffff;
+}
+
+body.lightTheme h1:hover{
+    background-color: #111111;
+    cursor: pointer;
+}
