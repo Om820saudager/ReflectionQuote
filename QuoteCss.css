@@ -1,19 +1,19 @@
 body{
-    background-color: #faf9e1;
+    background-color: #293163;
 }
 
 h1{
     border: 2px solid #000000;
     padding: 10px;
-    background-color: #F5F5DC;
+    background-color: #4F3F9D;
     font-size: 40px;
     font-weight: bold;
     border-radius: 5px;
-    color: #4f4e3e;  /* on the phone */                  
+    color: #9188BB;  /* on the phone */                  
 }
 
 h1:hover{
-    background-color: #d9d49c;
+    background-color: #57789D;
     cursor: pointer;
 }
 
@@ -21,6 +21,6 @@ p{
    font-size: 25px;
    padding: 10px;
    line-height: 2;
-   background-color: #e6e5cc;
-   color: #4f4e3e;
+   background-color: #6E3F9D;
+   color: #B400D6;
 }
