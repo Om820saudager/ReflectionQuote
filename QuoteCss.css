@@ -9,7 +9,7 @@ h1{
     font-size: 40px;
     font-weight: bold;
     border-radius: 5px;
-    color: #9188BB;  /* on the phone */                  
+    color: #ffffff;  /* on the phone */                  
 }
 
 h1:hover{
@@ -22,5 +22,5 @@ p{
    padding: 10px;
    line-height: 2;
    background-color: #6E3F9D;
-   color: #B400D6;
+   color: #ffffff;
 }
