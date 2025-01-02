@@ -53,3 +53,26 @@ body.lightTheme p{
     background-color: #b062ff;
     color: #fac3ff;
  }
+
+ #themeToggle{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+ }
+
+ .themeIcon{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+ }
+
+
+ /* #themeToggle{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+ } */
