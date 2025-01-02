@@ -27,14 +27,29 @@ p{
 }
 
 body.lightTheme{
-    background-color: #D48ADB;
+    background-color: #6c7fff;
+    font-family: 'JetBrains Mono', monospace;
 }
 
 body.lightTheme h1{
-    color: #ffffff;
+    border: 2px solid #5825ff;
+    padding: 10px;
+    background-color: #7d63ff;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #fac2ff;  /* on the phone */    
 }
 
 body.lightTheme h1:hover{
-    background-color: #111111;
+    background-color: #8cc2ff;
     cursor: pointer;
 }
+
+body.lightTheme p{
+    font-size: 25px;
+    padding: 10px;
+    line-height: 2;
+    background-color: #b062ff;
+    color: #fac3ff;
+ }
