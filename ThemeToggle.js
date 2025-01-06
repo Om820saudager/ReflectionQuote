@@ -1,5 +1,11 @@
 const themeToggle = document.getElementById("themeToggle");
+const hamburgerMenu = document.querySelector(".hamburgerMenu");
+const menu = document.querySelector(".menu");
 
+hamburgerMenu.addEventListener('click', () =>{
+    menu.classList.toggle("show");
+})
+  
 themeToggle.addEventListener('click', function(){
     document.body.classList.toggle('lightTheme');
 

@@ -66,13 +66,56 @@ body.lightTheme p{
     object-fit: contain;
  }
 
+ .menu{
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #293163;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 200px;
+    border-radius: 5px;
+ }
 
- /* #themeToggle{
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
+ .menu li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4F3F9D;
+    border-bottom: 1px solid #6E3F9D;
+ }
+
+ .menu li a:hover{
+    background-color: #57789D;
+ }
+
+ .menu.show{
+    display: block;
+ }
+
+ .navbar{
+    position: relative;
+ }
+
+ .hamburgerIcon{
+    background: none;
+    border: none;
     cursor: pointer;
-    background-color: transparent;
     display: flex;
-    align-items: center;
- } */
+    flex-direction: column;
+    gap: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+ }
+
+.hamburgerIcon span{
+    background-color: #000000;
+    height: 3px;
+    width: 100%;
+    border-radius: 5px;
+}
