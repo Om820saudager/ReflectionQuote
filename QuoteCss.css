@@ -92,6 +92,11 @@ body.lightTheme p{
     background-color: #57789D;
  }
 
+ /* body.lightTheme.menu li a:hover{
+    background-color: #8cc2ff;
+    cursor: pointer;
+ } */
+
  .menu.show{
     display: block;
  }
